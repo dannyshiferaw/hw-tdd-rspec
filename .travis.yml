@@ -1,5 +1,5 @@
 language: ruby
-rvm: 2.7.0
+rvm: 2.6.6
 sudo: false
 cache: bundler
 bundler_args: --without production
@@ -14,7 +14,7 @@ before_install:
   - gem install bundler:1.15.3
 script:
   - bundle exec rake db:setup
-  - bundle exec rake rspec
+  - bundle exec rake spec
   - $CCTR format-coverage --output coverage/codeclimate.$SUITE.json
   - bundle exec rake cucumber
   - $CCTR format-coverage --output coverage/codeclimate.$SUITE.json
