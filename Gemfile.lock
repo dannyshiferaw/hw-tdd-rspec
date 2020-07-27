@@ -200,7 +200,11 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
     sqlite3 (1.3.13)
+=======
+    sqlite3 (1.4.2)
+>>>>>>> 04ce5d59dbc43ac8b3a7878b61dd4fcb23124f32
     temple (0.8.2)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -238,7 +242,11 @@ DEPENDENCIES
   uglifier (>= 2.7.1)
 
 RUBY VERSION
+<<<<<<< HEAD
    ruby 2.7.0p0
+=======
+   ruby 2.6.6p146
+>>>>>>> 04ce5d59dbc43ac8b3a7878b61dd4fcb23124f32
 
 BUNDLED WITH
-   1.15.3
+   2.1.4
